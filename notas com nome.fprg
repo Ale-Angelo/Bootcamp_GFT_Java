@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="angel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-24 01:12:13 "/>
+        <attribute name="created" value="YW5nZWw7REVTS1RPUC1MR0VJTjZROzIwMjEtMDYtMjQ7IjExOjQ4OjA3ICI7Mjc5Nw=="/>
+        <attribute name="edited" value="YW5nZWw7REVTS1RPUC1MR0VJTjZROzIwMjEtMDYtMjQ7IjAxOjEyOjEzICI7MTsyODky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, nome" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;insira a primeira nota: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;insira a segunda nota: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;insira a terceira nota: &quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;insira a quarta nota: &quot;" newline="True"/>
+            <input variable="nota4"/>
+        </body>
+    </function>
+</flowgorithm>
